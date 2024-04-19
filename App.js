@@ -1,32 +1,21 @@
-let parent =React.createElement(
-    "div",
-    {
-      id:"parent"
-    },
-    React.createElement(
-      "p",
-      {
-        id:"child"
-      },
-     [ React.createElement(
-        "h1",
-        {
-          id:"child_1"
-        },
-        "Souvik",
-        
-      ),
-      React.createElement(
-        "h1",
-        {
-          id:"child_1"
-        },
-        "Souvik",
-        
-      )]
-    )
-  )
-  
-  ReactDOM.createRoot(document.getElementById("bdy")).render(
-    parent
-  );
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+let jsx=<>
+<table border="2">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>ID</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Souvik</td>
+            <td>0024</td>
+        </tr>
+    </tbody>
+</table>
+</>
+console.log(jsx);
+// ReactDOM.createRoot(document.getElementById("bdy")).render(jsx);
