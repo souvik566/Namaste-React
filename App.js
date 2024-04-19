@@ -18,5 +18,6 @@ let jsx=<>
 </table>
 </>
 
+
 console.log(jsx);
 // ReactDOM.createRoot(document.getElementById("bdy")).render(jsx);
