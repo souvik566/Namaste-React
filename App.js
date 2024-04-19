@@ -22,3 +22,7 @@ let jsx=<>
 
 console.log(jsx);
 // ReactDOM.createRoot(document.getElementById("bdy")).render(jsx);
+
+
+
+// React.createElement() => React-Elment (Javascript Object) => HTML by .render()
